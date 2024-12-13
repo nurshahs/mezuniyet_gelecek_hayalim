@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kadınların Yasal Hakları</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#slide">Eşitlik İçin Bilinçlen</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#hak-kategorileri">Haklarınızı Keşfedin!</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="#mevzuat">Mevzuat Rehberi: Önemli Yasal Bilgiler</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#iletisim"> Yanınızdayız: İletişim ve Yardım Rehberi
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="slide mt-5">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- İlk Resim -->
+        <div class="carousel-item active">
+          <img src="assets/images/slide1.png" class="d-block w-100" alt="Resim 1">
+
+        </div>
+        <!-- İkinci Resim -->
+        <div class="carousel-item">
+          <img src="assets/images/slide2.png" class="d-block w-100" alt="Resim 2">
+
+        </div>
+        <!-- Üçüncü Resim -->
+        <div class="carousel-item">
+          <img src="assets/images/slide3.png" class="d-block w-100" alt="Resim 3">
+
+        </div>
+      </div>
+      <!-- Önceki ve Sonraki Butonları -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Önceki</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Sonraki</span>
+      </button>
+    </div>
+  </section>
+
+
+
+  <!-- Ana Şerit ve Kartlar -->
+  <section id="hak-kategorileri">
+    <div class="container-fluid main-header-container">
+      <h1 class="text-center mb-4 yasal-haklar-header">Kadınların Güçlü Adımları: Hak ve Özgürlükler</h1>
+      <p class="text-center">Kadınların toplumsal hayatta eşit bir şekilde yer alması için eğitim, çalışma, şiddetten korunma ve siyasi katılım haklarıyla ilgili bilinçlenin. Güçlü adımlar atmak, haklarınızı bilmekle başlar.</p>
+    </div>
+    <div class="container">
+      <div class="card-container">
+        <!-- Sol Taraftaki Kartlar -->
+        <div class="left-card">
+          <!-- Eğitim Hakkı -->
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Eğitimde Eşitlik: Her Kadının Hakkı</h5>
+              <p class="card-text">
+                Eğitim, bireylerin potansiyellerini gerçekleştirmelerinin anahtarıdır. Her kadının ve kız çocuğunun
+                kaliteli eğitime erişimi, insan haklarının temel bir gereğidir.
+              </p>
+              <button class="btn btn-primary btn-detail" data-bs-toggle="modal"
+                data-bs-target="#educationModal">Detayları Gör</button>
+            </div>
+          </div>
+          <!-- Çalışma Hakkı -->
+          <div class="card mb-3 mt-5">
+            <div class="card-body">
+              <h5 class="card-title">Kadınlar Çalışıyor, Dünya Büyüyor: İş Hayatında Eşitlik</h5>
+              <p class="card-text">
+                Kadınların iş gücüne katılımı, ekonomik büyümenin temel dinamiklerinden biridir. İş hayatında eşitlik
+                sağlandığında, sadece kadınlar değil, tüm toplum kazanır.
+              </p>
+              <button class="btn btn-primary btn-detail" data-bs-toggle="modal" data-bs-target="#workModal">Detayları
+                Gör</button>
+            </div>
+          </div>
+
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Kadınların Dijital Hakları ve Teknolojik Güçlenmeı</h5>
+              <p class="card-text">
+                Dijital haklar, günümüzün temel insan haklarından biridir. Kadınların dijital okuryazarlığını artırmak,
+                çevrimiçi güvenliklerini sağlamak ve teknolojiye eşit erişim imkanı sunmak, toplumsal cinsiyet eşitliği
+                için kritik öneme sahiptir.
+              </p>
+              <button class="btn btn-primary btn-detail" data-bs-toggle="modal" data-bs-target="#digitalModal">Detayları
+                Gör</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Orta Şerit -->
+        <div class="center-line"></div>
+
+        <!-- Sağ Taraftaki Kartlar -->
+        <div class="right-card">
+          <!-- Şiddetten Korunma -->
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Şiddetsiz Bir Hayat: Kadınların Koruma Hakkı</h5>
+              <p class="card-text">
+                Kadınlara yönelik şiddet, insan haklarının en yaygın ihlallerinden biridir. Şiddetsiz bir hayat, her
+                kadının en temel hakkıdır.
+              </p>
+              <button class="btn btn-primary btn-detail" data-bs-toggle="modal"
+                data-bs-target="#protectionModal">Detayları Gör</button>
+            </div>
+          </div>
+          <!-- Seçme ve Seçilme Hakkı -->
+          <div class="card mb-3 mt-5">
+            <div class="card-body">
+              <h5 class="card-title">Sesini Duyur: Kadınların Seçme ve Seçilme Hakkı</h5>
+              <p class="card-text">
+                Kadınların karar alma mekanizmalarında aktif rol alması, daha kapsayıcı ve adil politikaların
+                geliştirilmesini sağlar.
+              </p>
+              <button class="btn btn-primary btn-detail" data-bs-toggle="modal" data-bs-target="#voteModal">Detayları
+                Gör</button>
+            </div>
+          </div>
+
+
+          <div class="card mb-3 mt-4">
+            <div class="card-body">
+              <h5 class="card-title">Eşit Mülkiyet ve Miras Hakkı</h5>
+              <p class="card-text">
+                Kadınların mülkiyet ve miras hakları, ekonomik bağımsızlıklarının temel taşlarından biridir. Bu haklar,
+                toplumsal cinsiyet eşitliğini güçlendiren önemli yasal güvencelerdir.
+              </p>
+              <button class="btn btn-primary btn-detail" data-bs-toggle="modal"
+                data-bs-target="#propertyRightsModal">Detayları Gör</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <section id="mevzuat">
+    <div class="container-fluid main-header-container">
+      <h1 class="text-center mb-4 yasal-haklar-header">Eşit Bir Gelecek İçin Hukukun Gücü</h1>
+      <p class="text-center">Bu rehber, kadınların eğitim, çalışma, mülkiyet ve siyasi haklarını koruyan önemli yasaları içerir. Eşitlik ve adalet için yasal güvencelerinizi öğrenin, haklarınızı bilin ve güçlenin.</p>
+    </div>
+
+    <div class="container">
+      <div class="card-container">
+        <!-- Sol Taraftaki Kartlar -->
+        <div class="left-card">
+          <!-- Anayasa Madde 10 -->
+          <div class="card mb-5 card-mevzuat">
+            <div class="card-body">
+              <h5 class="card-title">Anayasa Madde 10 - Eşitlik İlkesi</h5>
+              <p class="card-text">
+                Türkiye Cumhuriyeti Anayasası'nın 10. maddesi, "Herkes, dil, ırk, renk, cinsiyet, siyasi düşünce,
+                felsefi inanç, din, mezhep ve benzeri sebeplerle ayrım gözetilmeksizin kanun önünde eşittir." hükmünü
+                içerir. Bu madde, kadın ve erkeklerin eşit haklara sahip olduğunu belirtir ve devletin bu eşitliği
+                sağlamak için gerekli tedbirleri almasını zorunlu kılar.
+              </p>
+              <p class="text-center">
+                **Örnek:** Kadınların iş hayatında ayrımcılığa uğraması, Anayasa Madde 10'un ihlali olarak
+                değerlendirilebilir ve yasal yollarla hak aranabilir.
+              </p>
+            </div>
+          </div>
+
+          <!-- 6284 Sayılı Kanun -->
+          <div class="card mb-5 card-mevzuat space">
+            <div class="card-body">
+              <h5 class="card-title">6284 Sayılı Kanun - Kadına Yönelik Şiddetin Önlenmesi</h5>
+              <p class="card-text">
+                6284 sayılı Kanun, kadına yönelik şiddeti önlemek ve mağdurları korumak amacıyla çıkarılmıştır. Bu
+                kanun, şiddet mağdurlarına koruma kararı verilmesi, sığınma evlerine erişim sağlanması ve şiddet
+                uygulayanlara uzaklaştırma kararı alınması gibi tedbirler içerir.
+              </p>
+              <p class="text-center">
+                **Detay:** Kanun kapsamında, şiddete uğrayan kadınların fiziksel ve psikolojik destek alabileceği
+                mekanizmalar mevcuttur. Ayrıca, failin iletişim kurması veya mağdura yaklaşması yasaklanabilir.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Orta Şerit -->
+        <div class="center-line"></div>
+
+        <!-- Sağ Taraftaki Kartlar -->
+        <div class="right-card-mevzuat right-card">
+          <!-- Medeni Kanun -->
+          <div class="card mb-5 card-mevzuat mt-5">
+            <div class="card-body">
+              <h5 class="card-title">Medeni Kanun - Eşit Mülkiyet ve Miras Hakları</h5>
+              <p class="card-text">
+                Türkiye Medeni Kanunu, kadınlara ve erkeklere eşit mülkiyet ve miras hakkı tanır. Evlilik birliği içinde
+                edinilen mallar, eşit şekilde paylaşılır. Kadınların mülkiyet hakkı, ekonomik bağımsızlıklarının temel
+                taşıdır.
+              </p>
+              <p class="text-center">
+                **Örnek:** Boşanma durumunda, evlilik süresince edinilen malların eşit paylaşılması esastır. Bu
+                düzenleme, kadınların ekonomik olarak korunmasını sağlar.
+              </p>
+            </div>
+          </div>
+
+          <!-- 1934 Kadınların Seçme ve Seçilme Hakkı -->
+          <div class="card mb-5 card-mevzuat space">
+            <div class="card-body">
+              <h5 class="card-title">1934 - Kadınların Seçme ve Seçilme Hakkı</h5>
+              <p class="card-text">
+                Türkiye, kadınlara 1934 yılında seçme ve seçilme hakkı tanıyan ülkelerden biri olmuştur. Bu düzenleme,
+                kadınların siyasi hayatta aktif bir rol almasını sağlamıştır. Kadınlar, hem yerel yönetimlerde hem de
+                parlamentoda temsil edilebilir.
+              </p>
+              <p class="text-center">
+                **Örnek:** Türkiye'deki kadın milletvekili oranı, zamanla artış göstermiş olsa da dünya ortalamasının
+                altındadır. Bu hak, kadınların siyasi temsillerini artırmaları için önemli bir araçtır.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="iletisim">
+    <div class="container-fluid main-header-container">
+      <h1 class="text-center mb-4 yasal-haklar-header">Yanınızdayız: İletişim ve Yardım Rehberi</h1>
+      <p class="text-center">Bu bölüm, ihtiyaç anında kadınların başvurabileceği önemli destek ve yardım mekanizmalarını içermektedir. Alo 183'ten Mor Çatı'ya, KADES uygulamasından 112 Acil Çağrı Merkezi'ne kadar birçok kuruluş ve hizmete ulaşarak destek alabilirsiniz. Unutmayın, yalnız değilsiniz; her zaman yanınızdayız!</p>
+    </div>
+
+    <!-- Kartlar -->
+    <div class="kart">
+      <div class="icerik on-yuz">
+        <h3>Alo 183 Hattı</h3>
+        <p>Sosyal Destek Hattı</p>
+      </div>
+      <div class="icerik arka-yuz">
+        <p>7/24 hizmet veren ALO 183 hattını arayarak sosyal destek alabilirsiniz.</p>
+      </div>
+    </div>
+
+    <div class="kart">
+      <div class="icerik on-yuz">
+        <h3>Mor Çatı Uygulaması</h3>
+        <p>Kadın Sığınağı</p>
+      </div>
+      <div class="icerik arka-yuz">
+        <p>Mor Çatı, kadına yönelik şiddetle mücadelede destek sunar.</p>
+      </div>
+    </div>
+
+    <div class="kart">
+      <div class="icerik on-yuz">
+        <h3>155 Polis İmdat</h3>
+        <p>Acil Durum Hattı</p>
+      </div>
+      <div class="icerik arka-yuz">
+        <p>Şiddet durumunda en yakın polis merkezine ulaşabilirsiniz.</p>
+      </div>
+    </div>
+
+    <div class="kart">
+      <div class="icerik on-yuz">
+        <h3>KADES Uygulaması</h3>
+        <p>Mobil Uygulama</p>
+      </div>
+      <div class="icerik arka-yuz">
+        <p>KADES (Kadın Destek Uygulaması), acil durumlarda güvenlik güçlerine hızlı bir şekilde ulaşmanızı sağlar.
+          Mobil cihazınıza indirerek kullanabilirsiniz.</p>
+      </div>
+    </div>
+
+    <div class="kart">
+      <div class="icerik on-yuz">
+        <h3>112 Acil Çağrı Merkezi</h3>
+        <p>Acil Yardım Hattı</p>
+      </div>
+      <div class="icerik arka-yuz">
+        <p>Tüm acil durumlar için 112 Acil Çağrı Merkezi’ni arayarak polis, sağlık veya itfaiye hizmetlerine
+          ulaşabilirsiniz.</p>
+      </div>
+    </div>
+
+    <div class="kart">
+      <div class="icerik on-yuz">
+        <h3>Aile ve Sosyal Hizmetler Bakanlığı</h3>
+        <p>Destek ve Danışma</p>
+      </div>
+      <div class="icerik arka-yuz">
+        <p>Aile ve Sosyal Hizmetler Bakanlığı'na ait destek hatları ve danışma merkezlerinden bilgi ve yardım
+          alabilirsiniz.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Eğitim Hakkı Modal -->
+  <div class="modal fade modal-detail" id="educationModal" tabindex="-1" aria-labelledby="educationModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="educationModalLabel">Eğitimde Eşitlik: Her Kadının Hakkı</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Eğitim, bireylerin kendilerini geliştirmeleri ve topluma katkı sağlamaları için temel bir insan hakkıdır.
+            Kadınların eğitim alma hakkı, Türkiye Anayasası'nın 42. maddesi ve CEDAW (Kadınlara Karşı Her Türlü
+            Ayrımcılığın Önlenmesi Sözleşmesi) gibi uluslararası sözleşmelerle güvence altına alınmıştır. Ancak dünya
+            genelinde milyonlarca kadın ve kız çocuğu, toplumsal cinsiyet eşitsizliği nedeniyle eğitim hakkından mahrum
+            bırakılmaktadır.
+          </p>
+          <p>
+            Türkiye'de, ilköğretim zorunlu ve ücretsizdir. Ayrıca, kadınların mesleki eğitim ve yükseköğretime erişimini
+            artırmak için çeşitli projeler ve politikalar geliştirilmiştir. Kaliteli eğitime erişim, kadınların iş
+            gücüne katılımını artırmakta, ekonomik bağımsızlıklarını sağlamalarına yardımcı olmaktadır.
+          </p>
+          <p>
+            Unutmayın: Eğitimde eşitlik sağlanmadıkça, sürdürülebilir kalkınma hedeflerine ulaşmak mümkün değildir. Her
+            kadının ve kız çocuğunun kaliteli eğitime erişimi, insan haklarının temel bir gereğidir.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Çalışma Hakkı Modal -->
+  <div class="modal fade modal-detail" id="workModal" tabindex="-1" aria-labelledby="workModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="workModalLabel">Kadınlar Çalışıyor, Dünya Büyüyor: İş Hayatında Eşitlik</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Kadınların iş gücüne katılımı, ekonomik büyümenin ve toplumsal refahın temel dinamiklerinden biridir. Ancak
+            iş hayatında cinsiyet temelli ayrımcılık, ücret eşitsizliği ve cam tavan sendromu gibi engeller,
+            kadınların eşit fırsatlara sahip olmasını zorlaştırmaktadır.
+          </p>
+          <p>
+            Türkiye'de 4857 sayılı İş Kanunu, işyerinde eşit ücret ve ayrımcılığa karşı koruma sağlamaktadır. Ayrıca,
+            kadınlar için gebelik izni, doğum sonrası izinler ve esnek çalışma imkanları gibi haklar tanımlanmıştır.
+          </p>
+          <p>
+            Kadınların ekonomik hayata tam ve eşit katılımı, hem bireysel bağımsızlıklarını güçlendirir hem de toplumsal
+            kalkınmayı hızlandırır. İş hayatında cinsiyet eşitliği sağlandığında, sadece kadınlar değil, tüm toplum
+            kazanır.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Şiddetten Korunma Modal -->
+  <div class="modal fade modal-detail" id="protectionModal" tabindex="-1" aria-labelledby="protectionModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="protectionModalLabel">Şiddetsiz Bir Hayat: Kadınların Koruma Hakkı</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Kadınlara yönelik şiddet, dünya genelinde en yaygın insan hakları ihlallerinden biridir. Fiziksel, cinsel,
+            psikolojik veya ekonomik şiddet, kadınların yaşam kalitesini düşürmekte ve toplumsal cinsiyet eşitliğine
+            engel
+            olmaktadır.
+          </p>
+          <p>
+            Türkiye'de 6284 sayılı Kanun, kadına yönelik şiddetin önlenmesi ve mağdurların korunmasını amaçlamaktadır.
+            Kanun kapsamında mağdurlara koruma kararı verilmesi, sığınma evlerine erişim sağlanması ve failin
+            cezalandırılması
+            gibi önlemler bulunmaktadır.
+          </p>
+          <p>
+            Şiddetsiz bir hayat, her kadının en temel hakkıdır. Bu nedenle, bilinçlenmek ve şiddet durumunda destek
+            mekanizmalarından faydalanmak büyük önem taşımaktadır.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Seçme ve Seçilme Hakkı Modal -->
+  <div class="modal fade modal-detail" id="voteModal" tabindex="-1" aria-labelledby="voteModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="voteModalLabel">Sesini Duyur: Kadınların Seçme ve Seçilme Hakkı</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Kadınların seçme ve seçilme hakkı, demokratik toplumların temel taşlarından biridir. Türkiye'de kadınlara
+            1934
+            yılında seçme ve seçilme hakkı tanınmıştır. Ancak dünya genelinde kadınların siyasi temsili hala istenilen
+            seviyede değildir.
+          </p>
+          <p>
+            Kadınların karar alma mekanizmalarında aktif rol alması, daha kapsayıcı ve adil politikaların
+            geliştirilmesini sağlar. Siyasi süreçlerde kadınların daha fazla yer alması, toplumsal cinsiyet eşitliğine
+            katkı sağlar.
+          </p>
+          <p>
+            Sesini duyurmak, her kadının hakkıdır. Bu hakkı kullanmak, sadece bireysel bir kazanım değil, toplumsal
+            değişim için bir adımdır.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade modal-detail" id="propertyRightsModal" tabindex="-1" aria-labelledby="propertyRightsModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="propertyRightsModalLabel">Eşit Mülkiyet ve Miras Hakkı</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Kadınların mülkiyet ve miras hakları, ekonomik bağımsızlıklarının temel taşlarından biridir. Türkiye’de,
+            Medeni
+            Kanun kadın ve erkeklere eşit mülkiyet ve miras hakkı sağlamaktadır. Kadınlar, mal sahibi olma, miras hakkı
+            kullanma ve aile birliğinden doğan haklar konusunda erkeklerle eşit konumdadır.
+          </p>
+          <p>
+            Ancak, özellikle kırsal bölgelerde toplumsal gelenekler ve ekonomik nedenlerle kadınların bu haklardan
+            mahrum
+            bırakıldığı durumlar görülebilmektedir. Bu durum, toplumsal cinsiyet eşitliğini olumsuz etkilemekte ve
+            kadınların
+            ekonomik bağımsızlığını sınırlandırmaktadır.
+          </p>
+          <p>
+            Kadınların mülkiyet ve miras haklarına sahip çıkması, sadece bireysel olarak güçlenmelerine değil, aynı
+            zamanda
+            toplumsal eşitliğin sağlanmasına katkıda bulunur. Bu hakların korunması ve uygulanması, toplumsal gelişimin
+            vazgeçilmez bir parçasıdır.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade modal-detail" id="digitalModal" tabindex="-1" aria-labelledby="digitalModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="digitalModalLabel">Kadınların Dijital Hakları ve Teknolojik Güçlenme</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Dijital haklar, çağımızın en önemli insan haklarından biri haline gelmiştir. Kadınların dijital okuryazarlık
+            seviyelerini artırmak, çevrimiçi platformlarda güvenliğini sağlamak ve teknolojik araçlara eşit erişim
+            imkanları sunmak, toplumsal cinsiyet eşitliği açısından büyük bir önem taşır.
+          </p>
+          <p>
+            Teknolojinin hızla gelişmesiyle birlikte kadınların dijital dünyadaki varlıklarını artırmak için birçok
+            proje
+            ve girişim hayata geçirilmektedir. Ancak, kadınlar çevrimiçi taciz, dijital şiddet ve ayrımcılık gibi
+            sorunlarla
+            karşılaşabilmektedir. Bu sorunların üstesinden gelmek için, hem ulusal hem de uluslararası düzeyde yasal
+            düzenlemeler yapılmaktadır.
+          </p>
+          <p>
+            Türkiye’de kadınların dijital okuryazarlık becerilerini artırmak için özel eğitim programları sunulmakta,
+            teknolojiye erişimlerini teşvik eden projeler desteklenmektedir. Özellikle kırsal bölgelerde yaşayan
+            kadınların dijital teknolojilere erişimi artırılarak onların ekonomik ve sosyal hayata katılımları
+            sağlanmaktadır.
+          </p>
+          <p>
+            Kadınların dijital dünyada güvenli bir şekilde var olabilmesi, onların güçlenmesini ve toplumda daha aktif
+            roller üstlenmelerini sağlayacaktır. Dijital hakların korunması ve teknolojik güçlenmenin teşvik edilmesi,
+            toplumsal cinsiyet eşitliği için önemli bir adımdır.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
